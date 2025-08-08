@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tutor Profile - Learner </title>
+
+    <!-- Google Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap Icon CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="/assets/style/style.css">
+</head>
+
+<body>
+    <div class="header-container">
+        <h1 class="logo">Learner</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="tutors.html" class="active">Tutors</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="header-btn">Get Started</button>
+    </div>
+
+    <div class="inner-hero-container">
+        <p class="inner-title"> Tutor Profile </p>
+        <p class="inner-crumb"> <a href="/index.html">Home </a> <span> / </span> Tutors Profile </p>
+    </div>
+
+    <div class="tutor-header-container">
+        <div class="tutor-header-hero">
+            <div class="tutor-profile-grid">
+                <div class="tutor-profile-item-img">
+                    <img src="./assets/img/person-f-1.webp" alt="Tutor Image">
+                </div>
+                <div class="tutor-profile-item-text">
+                    <h1>Prof. Alexandra Chen</h1>
+                    <p>Machine Learning & AI Specialist</p>
+
+                    <div class="tutor-buttons">
+                        <button>Ph.D. MIT</button>
+                        <button>Ph.D. MIT</button>
+                        <button>Ph.D. MIT</button>
+                    </div>
+
+                    <div class="stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+
+                        <p>4.9 rating from 3,821 reviews</p>
+
+                    </div>
+
+                    <div class="tutor-cta-last">
+                        <div class="tutor-contact-btn">
+                            <button>
+                                Contact Tutor <i class="bi bi-arrow-right"></i>
+                            </button>
+                        </div>
+
+                        <div class="social-icons">
+                            <i class="bi bi-linkedin"></i>
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tutor-bio-container">
+        <div class="tutor-profile-card">
+            <!-- Radio inputs first (outside the ul) -->
+            <input type="radio" name="tutor-tab" id="about" checked>
+            <input type="radio" name="tutor-tab" id="expertise">
+            <input type="radio" name="tutor-tab" id="courses">
+            <input type="radio" name="tutor-tab" id="reviews">
+
+            <!-- Horizontal Tabs Navigation -->
+            <ul class="tutor-tabs-nav">
+                <li>
+                    <label for="about"><i class="bi bi-person"></i> About</label>
+                </li>
+                <li>
+                    <label for="expertise"><i class="bi bi-lightning"></i> Expertise</label>
+                </li>
+                <li>
+                    <label for="courses"><i class="bi bi-journal-bookmark"></i> Courses</label>
+                </li>
+                <li>
+                    <label for="reviews"><i class="bi bi-star"></i> Reviews</label>
+                </li>
+            </ul>
+
+            <!-- Tab Contents -->
+            <div class="tutor-tabs-content">
+
+                <!-- About Tab -->
+                <div class="tutor-tab-content">
+                    <h1>About the Instructor</h1>
+                    <p>
+                        Prof. Alexandra Chen is a distinguished computer science educator with over 12 years of
+                        experience in academia and industry.
+                        She holds a Ph.D. in Artificial Intelligence from MIT and has published over 50 peer-reviewed
+                        papers in top-tier conferences.
+                    </p>
+                    <p>
+                        Her teaching philosophy centers on making complex concepts accessible through real-world
+                        applications and interactive learning.
+                        She has mentored over 200 graduate students and has received multiple teaching excellence awards
+                        for her innovative approaches.
+                    </p>
+                    <p>
+                        Before joining academia, Alexandra worked as a senior research scientist at Google AI, where she
+                        led projects in machine learning
+                        and natural language processing that have been deployed in production systems serving millions
+                        of users.
+                    </p>
+                </div>
+
+                <!-- Expertise Tab -->
+                <div class="tutor-tab-content">
+                    <h1>Areas of Expertise</h1>
+                    <p>
+                        Alexandra specializes in cutting-edge technologies and research areas that are shaping the
+                        future of computer science:
+                    </p>
+                    <div class="expertise-grid">
+                        <div class="expertise-item">
+                            <div class="expertise-icon">
+                                <i class="bi bi-robot"></i>
+                            </div>
+                            <div class="expertise-content">
+                                <h5>Artificial Intelligence</h5>
+                                <p>Deep learning, neural networks, and cognitive systems</p>
+                            </div>
+                        </div>
+                        <div class="expertise-item">
+                            <div class="expertise-icon">
+                                <i class="bi bi-code-slash"></i>
+                            </div>
+                            <div class="expertise-content">
+                                <h5>Machine Learning</h5>
+                                <p>Supervised/unsupervised learning, reinforcement learning</p>
+                            </div>
+                        </div>
+                        <div class="expertise-item">
+                            <div class="expertise-icon">
+                                <i class="bi bi-chat-dots"></i>
+                            </div>
+                            <div class="expertise-content">
+                                <h5>Natural Language Processing</h5>
+                                <p>Language models, sentiment analysis, chatbots</p>
+                            </div>
+                        </div>
+                        <div class="expertise-item">
+                            <div class="expertise-icon">
+                                <i class="bi bi-graph-up"></i>
+                            </div>
+                            <div class="expertise-content">
+                                <h5>Data Science</h5>
+                                <p>Big data analytics, statistical modeling, visualization</p>
+                            </div>
+                        </div>
+
+                        <div class="expertise-item">
+                            <div class="expertise-icon">
+                                <i class="bi bi-graph-up"></i>
+                            </div>
+                            <div class="expertise-content">
+                                <h5>Data Analytics </h5>
+                                <p>Big data analytics, statistical modeling, visualization</p>
+                            </div>
+                        </div>
+
+                        <div class="expertise-item">
+                            <div class="expertise-icon">
+                                <i class="bi bi-laptop"></i>
+                            </div>
+                            <div class="expertise-content">
+                                <h5>Speaking in Python & R </h5>
+                                <p>Big data analytics, statistical modeling, visualization</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Courses Tab -->
+                <div class="tutor-tab-content">
+                    <h1>Featured Courses</h1>
+                    <p>
+                        Explore Alexandra's comprehensive course catalog designed for both beginners and advanced
+                        learners:
+                    </p>
+
+                    <div class="courses-grid">
+                        <div class="course-card">
+                            <div class="course-image">
+                                Advanced Machine Learning
+                            </div>
+                            <div class="course-content">
+                                <h5>Advanced Machine Learning</h5>
+                                <p>Master cutting-edge ML techniques and algorithms with hands-on projects</p>
+                                <div class="course-stats">
+                                    <div class="course-stat">
+                                        <i class="bi bi-people"></i>
+                                        <span>1,247</span>
+                                    </div>
+                                    <div class="course-stat">
+                                        <i class="bi bi-star-fill"></i>
+                                        <span>4.9 (156)</span>
+                                    </div>
+                                </div>
+                                <div class="course-price">$299</div>
+                                <button class="btn-register">Register</button>
+                            </div>
+                        </div>
+
+                        <div class="course-card">
+                            <div class="course-image">
+                                Deep Learning with Python
+                            </div>
+                            <div class="course-content">
+                                <h5>Deep Learning with Python</h5>
+                                <p>Build neural networks from scratch using TensorFlow and PyTorch</p>
+                                <div class="course-stats">
+                                    <div class="course-stat">
+                                        <i class="bi bi-people"></i>
+                                        <span>982</span>
+                                    </div>
+                                    <div class="course-stat">
+                                        <i class="bi bi-star-fill"></i>
+                                        <span>4.8 (98)</span>
+                                    </div>
+                                </div>
+                                <div class="course-price">$249</div>
+                                <button class="btn-register">Register</button>
+                            </div>
+                        </div>
+
+                        <div class="course-card">
+                            <div class="course-image">
+                                NLP for Developers
+                            </div>
+                            <div class="course-content">
+                                <h5>NLP for Developers</h5>
+                                <p>Transform text into actionable insights with modern NLP techniques</p>
+                                <div class="course-stats">
+                                    <div class="course-stat">
+                                        <i class="bi bi-people"></i>
+                                        <span>756</span>
+                                    </div>
+                                    <div class="course-stat">
+                                        <i class="bi bi-star-fill"></i>
+                                        <span>4.9 (87)</span>
+                                    </div>
+                                </div>
+                                <div class="course-price">$199</div>
+                                <button class="btn-register">Register</button>
+                            </div>
+                        </div>
+
+                        <div class="course-card">
+                            <div class="course-image">
+                                Computer Vision
+                            </div>
+                            <div class="course-content">
+                                <h5>Computer Vision</h5>
+                                <p>Build AI systems that can see and interpret visual data</p>
+                                <div class="course-stats">
+                                    <div class="course-stat">
+                                        <i class="bi bi-people"></i>
+                                        <span>1,103</span>
+                                    </div>
+                                    <div class="course-stat">
+                                        <i class="bi bi-star-fill"></i>
+                                        <span>4.7 (134)</span>
+                                    </div>
+                                </div>
+                                <div class="course-price">$349</div>
+                                <button class="btn-register">Register</button>
+                            </div>
+                        </div>
+
+                        <div class="course-card">
+                            <div class="course-image">
+                                Data Science Fundamentals
+                            </div>
+                            <div class="course-content">
+                                <h5>Data Science Fundamentals</h5>
+                                <p>Learn statistics, visualization, and predictive modeling</p>
+                                <div class="course-stats">
+                                    <div class="course-stat">
+                                        <i class="bi bi-people"></i>
+                                        <span>2,451</span>
+                                    </div>
+                                    <div class="course-stat">
+                                        <i class="bi bi-star-fill"></i>
+                                        <span>4.6 (201)</span>
+                                    </div>
+                                </div>
+                                <div class="course-price">$179</div>
+                                <button class="btn-register">Register</button>
+                            </div>
+                        </div>
+
+                        <div class="course-card">
+                            <div class="course-image">
+                                AI Ethics & Governance
+                            </div>
+                            <div class="course-content">
+                                <h5>AI Ethics & Governance</h5>
+                                <p>Understand the ethical implications of AI and responsible development</p>
+                                <div class="course-stats">
+                                    <div class="course-stat">
+                                        <i class="bi bi-people"></i>
+                                        <span>567</span>
+                                    </div>
+                                    <div class="course-stat">
+                                        <i class="bi bi-star-fill"></i>
+                                        <span>4.8 (67)</span>
+                                    </div>
+                                </div>
+                                <div class="course-price">$149</div>
+                                <button class="btn-register">Register</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Reviews Tab -->
+                <div class="tutor-tab-content">
+                    <h1>Student Reviews</h1>
+                    <p>
+                        Hear what students and colleagues have to say about Alexandra's teaching:
+                    </p>
+
+                    <div class="course-reviews-grid">
+                        <div class="review-card">
+                            <div class="review-rating">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <p class="review-text">The best AI instructor I've ever had. Complex topics made simple and
+                                the practical projects were incredibly valuable for my career!</p>
+                            <div class="review-author">
+                                <div class="author-avatar">MR</div>
+                                <div class="author-info">
+                                    <h6>Michael Rodriguez</h6>
+                                    <small>Computer Science Student</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="review-card">
+                            <div class="review-rating">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <p class="review-text">Her practical approach helped me land a job at a top tech company!
+                                The real-world case studies made all the difference in my learning.</p>
+                            <div class="review-author">
+                                <div class="author-avatar">SJ</div>
+                                <div class="author-info">
+                                    <h6>Sarah Johnson</h6>
+                                    <small>Former Student</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="review-card">
+                            <div class="review-rating">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <p class="review-text">Dr. Chen's teaching style is exceptional. She breaks down complex AI
+                                concepts into digestible pieces and her mentorship goes beyond the classroom.</p>
+                            <div class="review-author">
+                                <div class="author-avatar">DP</div>
+                                <div class="author-info">
+                                    <h6>David Park</h6>
+                                    <small>Graduate Researcher</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="review-card">
+                            <div class="review-rating">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-half text-warning"></i>
+                            </div>
+                            <p class="review-text">The course content is cutting-edge and the hands-on projects prepared
+                                me for industry challenges. Highly recommended for anyone serious about AI!</p>
+                            <div class="review-author">
+                                <div class="author-avatar">EC</div>
+                                <div class="author-info">
+                                    <h6>Emma Chen</h6>
+                                    <small>Software Engineer</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="review-card">
+                            <div class="review-rating">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <p class="review-text">Incredible depth of knowledge combined with practical application.
+                                The office hours and feedback on projects were invaluable for my growth.</p>
+                            <div class="review-author">
+                                <div class="author-avatar">JT</div>
+                                <div class="author-info">
+                                    <h6>James Thompson</h6>
+                                    <small>PhD Candidate</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="review-card">
+                            <div class="review-rating">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <p class="review-text">The most engaging and effective course I've taken. Dr. Chen's passion
+                                for teaching shines through in every lecture and assignment.</p>
+                            <div class="review-author">
+                                <div class="author-avatar">LR</div>
+                                <div class="author-info">
+                                    <h6>Lisa Roberts</h6>
+                                    <small>Data Scientist</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Summary Grid (Impact, Recognition, Contact) -->
+        <div class="tutor-summary-grid mt-5">
+            <!-- Teaching Impact -->
+            <div class="summary-section">
+                <h4>Teaching Impact</h4>
+                <div class="impact-grid">
+                    <div class="impact-box">
+                        <i class="bi bi-people"></i>
+                        <div class="value">15,247</div>
+                        <div class="label">Students</div>
+                    </div>
+                    <div class="impact-box">
+                        <i class="bi bi-journals"></i>
+                        <div class="value">18</div>
+                        <div class="label">Courses</div>
+                    </div>
+                    <div class="impact-box">
+                        <i class="bi bi-check-circle"></i>
+                        <div class="value">94%</div>
+                        <div class="label">Completion</div>
+                    </div>
+                    <div class="impact-box">
+                        <i class="bi bi-calendar-check"></i>
+                        <div class="value">10+</div>
+                        <div class="label">Years</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recognition & Awards -->
+            <div class="summary-section">
+                <h4>Recognition & Awards</h4>
+                <div class="recognition-item">
+                    <h5>Excellence in Teaching Award</h5>
+                    <p>MIT Computer Science Department • 2022</p>
+                </div>
+                <div class="recognition-item">
+                    <h5>AI Research Grant</h5>
+                    <p>National Science Foundation • 2021</p>
+                </div>
+                <div class="recognition-item">
+                    <h5>Outstanding Educator Recognition</h5>
+                    <p>IEEE Computer Society • 2020</p>
+                </div>
+            </div>
+
+            <!-- Get in Touch -->
+            <div class="summary-section">
+                <h4>Get in Touch</h4>
+                <div class="contact-item">
+                    <h5><i class="bi bi-envelope"></i> Email</h5>
+                    <p>alexandra.chen@learner.edu</p>
+                </div>
+                <div class="contact-item">
+                    <h5><i class="bi bi-telephone"></i> Phone</h5>
+                    <p>+1 (555) 789-0123</p>
+                </div>
+                <div class="contact-item">
+                    <h5><i class="bi bi-geo-alt"></i> Office</h5>
+                    <p>Room 304, Computer Science Building</p>
+                </div>
+                <div class="contact-item">
+                    <h5><i class="bi bi-clock"></i> Office Hours</h5>
+                    <p>Tuesday & Thursday 2:00 PM - 4:00 PM</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-logo">
+                <h1> Learner </h1>
+                <p class="footer-desc">
+                    Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita
+                    valies
+                    darta donna mare fermentum iaculis eu non diam phasellus.
+                </p>
+
+                <div class="social-icons-box">
+                    <p class="social-icons">
+                        <i class="bi bi-twitter"></i>
+                    </p>
+
+                    <p class="social-icons">
+                        <i class="bi bi-facebook"></i>
+                    </p>
+
+                    <p class="social-icons">
+                        <i class="bi bi-instagram"></i>
+                    </p>
+
+                    <p class="social-icons">
+                        <i class="bi bi-linkedin"></i>
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="footer-menu-item">
+                <h1> Useful Links </h1>
+                <ul>
+                    <li> Home </li>
+                    <li> About </li>
+                    <li> Services </li>
+                    <li> Terms of Service </li>
+                    <li> Privacy Policy </li>
+
+                </ul>
+            </div>
+
+            <div class="footer-menu-item">
+                <h1> Our Services </h1>
+                <ul>
+                    <li> Web Design </li>
+                    <li> Web Developemnt </li>
+                    <li> Product Management </li>
+                    <li> Marketing </li>
+                    <li> Graphics Design </li>
+
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h1> Get in Touch </h1>
+                <p>
+                    A108 Adam Street, New York, NY 535022, United States
+                </p>
+
+                <p> <b> <i class="bi bi-telephone"></i> </b> admin@learner.com </p>
+                <p> <b><i class="bi bi-envelope"></i> </b> +1 234 567 890 </p>
+            </div>
+        </div>
+
+        <div class="final-box">
+            <p> &copy; Copyright - <b> Learner. </b> All Rights Reserved. </p>
+
+            <p> Made with 🤍 by @oyedokunken</p>
+        </div>
+    </footer>
+
+    <div class="scroll-to-top">
+        <a href="#"> <i class="bi bi-arrow-up"> </i></a>
+    </div>
+</body>
+
+</html>
+</body>
+
+</html>
