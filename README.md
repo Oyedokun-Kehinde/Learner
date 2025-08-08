@@ -62,4 +62,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Ken Oyedokun - oyedokunken@gmail.com
 
-Project Link: https://github.com/your-username/learner-platform
+Project Link: https://github.com/Oyedokun-Kehinde/Learner
